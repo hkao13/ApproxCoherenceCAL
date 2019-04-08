@@ -1,0 +1,85 @@
+%% Creator: Inkscape inkscape 0.91, www.inkscape.org
+%% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
+%% Accompanies image file 'moesi.pdf' (pdf, eps, ps)
+%%
+%% To include the image in your LaTeX document, write
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics{<filename>.pdf}
+%% To scale the image, write
+%%   \def\svgwidth{<desired width>}
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics[width=<desired width>]{<filename>.pdf}
+%%
+%% Images with a different path to the parent latex file can
+%% be accessed with the `import' package (which may need to be
+%% installed) using
+%%   \usepackage{import}
+%% in the preamble, and then including the image with
+%%   \import{<path to file>}{<filename>.pdf_tex}
+%% Alternatively, one can specify
+%%   \graphicspath{{<path to file>/}}
+%% 
+%% For more information, please see info/svg-inkscape on CTAN:
+%%   http://tug.ctan.org/tex-archive/info/svg-inkscape
+%%
+\begingroup%
+  \makeatletter%
+  \providecommand\color[2][]{%
+    \errmessage{(Inkscape) Color is used for the text in Inkscape, but the package 'color.sty' is not loaded}%
+    \renewcommand\color[2][]{}%
+  }%
+  \providecommand\transparent[1]{%
+    \errmessage{(Inkscape) Transparency is used (non-zero) for the text in Inkscape, but the package 'transparent.sty' is not loaded}%
+    \renewcommand\transparent[1]{}%
+  }%
+  \providecommand\rotatebox[2]{#2}%
+  \ifx\svgwidth\undefined%
+    \setlength{\unitlength}{595.27559055bp}%
+    \ifx\svgscale\undefined%
+      \relax%
+    \else%
+      \setlength{\unitlength}{\unitlength * \real{\svgscale}}%
+    \fi%
+  \else%
+    \setlength{\unitlength}{\svgwidth}%
+  \fi%
+  \global\let\svgwidth\undefined%
+  \global\let\svgscale\undefined%
+  \makeatother%
+  \begin{picture}(1,1.41428571)%
+    \put(0,0){\includegraphics[width=\unitlength,page=1]{moesi.pdf}}%
+    \put(0.26200899,0.9855882){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{M}}}%
+    \put(0.27015434,0.49958186){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{I}}}%
+    \put(0.68013731,1.00052134){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{O}}}%
+    \put(0.67334953,0.72357918){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{E}}}%
+    \put(0.67742221,0.51179989){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{S}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=2]{moesi.pdf}}%
+    \put(0.23167433,0.64021902){\color[rgb]{0,0,0}\rotatebox{90}{\makebox(0,0)[lb]{\smash{Store / GetX}}}}%
+    \put(0.29131545,0.79802523){\color[rgb]{0,0,0}\rotatebox{-90}{\makebox(0,0)[lb]{\smash{GetX / Data}}}}%
+    \put(0.31786945,0.79607051){\color[rgb]{0,0,0}\rotatebox{-90}{\makebox(0,0)[lb]{\smash{GetS / Data}}}}%
+    \put(0.40591026,0.45342488){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Load / GetS}}}%
+    \put(0.45342485,0.53759356){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Inv}}}%
+    \put(0.47157461,0.5753602){\color[rgb]{0,0,0}\rotatebox{29.54017375}{\makebox(0,0)[lb]{\smash{Load / GetS}}}}%
+    \put(0.41821857,0.63464783){\color[rgb]{0,0,0}\rotatebox{34.58508496}{\makebox(0,0)[lb]{\smash{GetX / Data}}}}%
+    \put(0.38961153,0.67256585){\color[rgb]{0,0,0}\rotatebox{55.10829008}{\makebox(0,0)[lb]{\smash{GetX / Data}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=3]{moesi.pdf}}%
+    \put(0.39640737,1.01273941){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Store / GetX}}}%
+    \put(0.32451995,0.89955756){\color[rgb]{0,0,0}\rotatebox{-36.47649623}{\makebox(0,0)[lb]{\smash{Store / GetX}}}}%
+    \put(0.36839591,0.93956028){\color[rgb]{0,0,0}\rotatebox{-30.80030438}{\makebox(0,0)[lb]{\smash{Store / Hit\\ }}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=4]{moesi.pdf}}%
+    \put(0.80828412,1.04525303){\color[rgb]{0,0,0}\rotatebox{-90}{\makebox(0,0)[lb]{\smash{Load / Hit}}}}%
+    \put(0.81099935,0.80903768){\color[rgb]{0,0,0}\rotatebox{-90}{\makebox(0,0)[lb]{\smash{Load / Hit}}}}%
+    \put(0.15042111,0.84542351){\color[rgb]{0,0,0}\rotatebox{90}{\makebox(0,0)[lb]{\smash{Store / Hit}}}}%
+    \put(0.17777253,0.83300525){\color[rgb]{0,0,0}\rotatebox{90}{\makebox(0,0)[lb]{\smash{Load / Hit}}}}%
+    \put(0.80964173,0.5578892){\color[rgb]{0,0,0}\rotatebox{-90}{\makebox(0,0)[lb]{\smash{Load / Hit}}}}%
+    \put(0.8433465,0.56090628){\color[rgb]{1,0,0}\rotatebox{-90}{\makebox(0,0)[lb]{\smash{StoreA/ Hit}}}}%
+    \put(0.84189226,0.80247555){\color[rgb]{1,0,0}\rotatebox{-90}{\makebox(0,0)[lb]{\smash{StoreA/ Hit}}}}%
+    \put(0.84324979,1.06041186){\color[rgb]{1,0,0}\rotatebox{-90}{\makebox(0,0)[lb]{\smash{StoreA/ Hit}}}}%
+    \put(0.12333254,0.85103196){\color[rgb]{1,0,0}\rotatebox{90}{\makebox(0,0)[lb]{\smash{StoreA/ Hit}}}}%
+    \put(0.38665,0.95479297){\color[rgb]{1,0,0}\rotatebox{-27.27942102}{\makebox(0,0)[lb]{\smash{StoreA/ Hit}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=5]{moesi.pdf}}%
+    \put(0.13283546,0.44376409){\color[rgb]{1,0,0}\rotatebox{90}{\makebox(0,0)[lb]{\smash{StoreA/ Hit}}}}%
+  \end{picture}%
+\endgroup%

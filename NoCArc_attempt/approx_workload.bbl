@@ -1,0 +1,378 @@
+% $ biblatex auxiliary file $
+% $ biblatex version 2.6 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated as
+% required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+\entry{Binkert2011}{article}{}
+  \name{author}{16}{}{%
+    {{}%
+     {Binkert}{B.}%
+     {Nathan}{N.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Beckmann}{B.}%
+     {Bradford}{B.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Black}{B.}%
+     {Gabriel}{G.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Reinhardt}{R.}%
+     {Steven~K.}{S.~K.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Saidi}{S.}%
+     {Ali}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Basu}{B.}%
+     {Arkaprava}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Hestness}{H.}%
+     {Joel}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Hower}{H.}%
+     {Derek~R.}{D.~R.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Krishna}{K.}%
+     {Tushar}{T.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Sardashti}{S.}%
+     {Somayeh}{S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Sen}{S.}%
+     {Rathijit}{R.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Sewell}{S.}%
+     {Korey}{K.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Shoaib}{S.}%
+     {Muhammad}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Vaish}{V.}%
+     {Nilay}{N.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Hill}{H.}%
+     {Mark~D.}{M.~D.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Wood}{W.}%
+     {David~A.}{D.~A.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{BN+1}
+  \strng{fullhash}{BNBBBGRSKSABAHJHDRKTSSSRSKSMVNHMDWDA1}
+  \field{sortinit}{B}
+  \field{title}{The Gem5 Simulator}
+  \field{journaltitle}{SIGARCH Comput. Archit. News}
+  \field{year}{2011}
+\endentry
+
+\entry{Huh2004}{inproceedings}{}
+  \name{author}{4}{}{%
+    {{}%
+     {Huh}{H.}%
+     {J.}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Chang}{C.}%
+     {J.}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Burger}{B.}%
+     {D.}{D.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Sohi}{S.}%
+     {G.~S.}{G.~S.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{HJ+1}
+  \strng{fullhash}{HJCJBDSGS1}
+  \field{sortinit}{H}
+  \field{booktitle}{Architectural Support for Programming Languages and
+  Operating Systems (ASPLOS)}
+  \field{title}{Coherence Decoupling: Making Use of Incoherence}
+  \field{year}{2004}
+\endentry
+
+\entry{Lepak2000}{inproceedings}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Lepak}{L.}%
+     {K.~M.}{K.~M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Lipasti}{L.}%
+     {M.~H.}{M.~H.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{LKMLMH1}
+  \strng{fullhash}{LKMLMH1}
+  \field{sortinit}{L}
+  \field{booktitle}{International Symposium on Microarchitecture (MICRO)}
+  \field{title}{Silent stores for free}
+  \field{year}{2000}
+\endentry
+
+\entry{Lepak2002}{inproceedings}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Lepak}{L.}%
+     {Kevin~M.}{K.~M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Lipasti}{L.}%
+     {Mikko~H.}{M.~H.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{LKMLMH2}
+  \strng{fullhash}{LKMLMH2}
+  \field{sortinit}{L}
+  \field{booktitle}{Architectural Support for Programming Languages and
+  Operating Systems (ASPLOS)}
+  \field{title}{Temporally Silent Stores}
+  \field{year}{2002}
+\endentry
+
+\entry{Lipasti1996}{inproceedings}{}
+  \name{author}{3}{}{%
+    {{}%
+     {Lipasti}{L.}%
+     {Mikko~H.}{M.~H.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Wilkerson}{W.}%
+     {Christopher~B.}{C.~B.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Shen}{S.}%
+     {John~Paul}{J.~P.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{LMHWCBSJP1}
+  \strng{fullhash}{LMHWCBSJP1}
+  \field{sortinit}{L}
+  \field{booktitle}{Architectural Support for Programming Languages and
+  Operating Systems (ASPLOS)}
+  \field{title}{Value Locality and Load Value Prediction}
+  \field{year}{1996}
+\endentry
+
+\entry{Liu:2011}{inproceedings}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Liu}{L.}%
+     {Tongping}{T.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Berger}{B.}%
+     {Emery~D.}{E.~D.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{LTBED1}
+  \strng{fullhash}{LTBED1}
+  \field{sortinit}{L}
+  \field{booktitle}{Proceedings of the 2011 ACM International Conference on
+  Object Oriented Programming Systems Languages and Applications}
+  \field{series}{OOPSLA '11}
+  \field{title}{SHERIFF: Precise Detection and Automatic Mitigation of False
+  Sharing}
+  \field{year}{2011}
+\endentry
+
+\entry{Liu:2014}{inproceedings}{}
+  \name{author}{4}{}{%
+    {{}%
+     {Liu}{L.}%
+     {Tongping}{T.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Tian}{T.}%
+     {Chen}{C.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Hu}{H.}%
+     {Ziang}{Z.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Berger}{B.}%
+     {Emery~D.}{E.~D.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{LT+1}
+  \strng{fullhash}{LTTCHZBED1}
+  \field{sortinit}{L}
+  \field{booktitle}{Proceedings of the 19th ACM SIGPLAN Symposium on Principles
+  and Practice of Parallel Programming}
+  \field{series}{PPoPP '14}
+  \field{title}{PREDATOR: Predictive False Sharing Detection}
+  \field{year}{2014}
+\endentry
+
+\entry{Ranger2007}{inproceedings}{}
+  \name{author}{5}{}{%
+    {{}%
+     {Ranger}{R.}%
+     {C.}{C.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Raghuraman}{R.}%
+     {R.}{R.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Penmetsa}{P.}%
+     {A.}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Bradski}{B.}%
+     {G.}{G.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Kozyrakis}{K.}%
+     {C.}{C.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{RC+1}
+  \strng{fullhash}{RCRRPABGKC1}
+  \field{sortinit}{R}
+  \field{booktitle}{International Symposium on High Performance Computer
+  Architecture (HPCA)}
+  \field{title}{Evaluating MapReduce for Multi-core and Multiprocessor Systems}
+  \field{year}{2007}
+\endentry
+
+\entry{Rengasamy2015}{inproceedings}{}
+  \name{author}{4}{}{%
+    {{}%
+     {Rengasamy}{R.}%
+     {P.~V.}{P.~V.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Sivasubramaniam}{S.}%
+     {A.}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Kandemir}{K.}%
+     {M.~T.}{M.~T.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Das}{D.}%
+     {C.~R.}{C.~R.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{RPV+1}
+  \strng{fullhash}{RPVSAKMTDCR1}
+  \field{sortinit}{R}
+  \field{booktitle}{Parallel Architecture and Compilation (PACT)}
+  \field{title}{Exploiting Staleness for Approximating Loads on CMPs}
+  \field{year}{2015}
+\endentry
+
+\entry{Wang2008}{inproceedings}{}
+  \name{author}{5}{}{%
+    {{}%
+     {Wang}{W.}%
+     {X.}{X.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Gan}{G.}%
+     {G.}{G.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Manzano}{M.}%
+     {J.}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Fan}{F.}%
+     {D.}{D.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Guo}{G.}%
+     {S.}{S.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{WX+1}
+  \strng{fullhash}{WXGGMJFDGS1}
+  \field{sortinit}{W}
+  \field{booktitle}{International Conference on Parallel and Distributed
+  Systems (ICPADS)}
+  \field{title}{A Quantitative Study of the On-Chip Network and Memory
+  Hierarchy Design for Many-Core Processor}
+  \field{year}{2008}
+\endentry
+
+\lossort
+\endlossort
+
+\endinput

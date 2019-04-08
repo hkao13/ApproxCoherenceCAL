@@ -1,0 +1,12 @@
+\section{Implementation}
+\begin{enumerate}
+	\item gem5 syscall Ruby memory
+	\item MESI Two-level cache
+	\item talk about limitations of two-level since now modern procs use 3 levels.
+	\item talk about increasing simulated L1 to be effectively L2 size to get more accurate results for coherence misses.
+	\item Possibly talk about Silent Approximate Stores in here
+\end{enumerate}
+
+\textbf{Problem}: Successive approximate stores that have values within the error tolerance might grow unbounded and other cache lines in private caches will become very incoherent/stale. E.g., an instruction like \texttt{a += 1}.\\
+\textbf{Solution 1}: Broadcast the store value every n cycles, i.e., 100000 cycles.\\
+\textbf{Solution 2}: Approximation is done up the the n-th bit, i.e., the 3rd bit so approximations are bound to be plus/minus 3 from the previous value.

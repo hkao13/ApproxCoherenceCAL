@@ -1,0 +1,88 @@
+\documentclass[conference]{IEEEtran}
+%\IEEEoverridecommandlockouts
+% The preceding line is only needed to identify funding in the first footnote. If that is unneeded, please comment it out.
+% \usepackage{cite}
+\usepackage{amsmath,amssymb,amsfonts}
+\usepackage{algorithmic}
+\usepackage{graphicx}
+\usepackage{textcomp}
+\usepackage{xcolor}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{multirow}
+\usepackage{makecell}
+\usepackage{subcaption}
+\usepackage{cleveref}
+\usepackage[backend=bibtex,
+                ]{biblatex}  
+
+\def\BibTeX{{\rm B\kern-.05em{\sc i\kern-.025em b}\kern-.08em
+    T\kern-.1667em\lower.7ex\hbox{E}\kern-.125emX}}
+
+\addbibresource{ref.bib}
+
+\begin{document}
+
+\title{Coherence Traffic and Store-Value Similarity Characterization for Approximate Workloads\\
+%{\footnotesize \textsuperscript{*}Note: Sub-titles are not captured in Xplore and
+%should not be used}
+%\thanks{Identify applicable funding agency here. If none, delete this.}
+}
+
+% \author{\IEEEauthorblockN{1\textsuperscript{st} Henry Kao}
+% \IEEEauthorblockA{\textit{Dept of Electrical and Comp. Engineering} \\
+% \textit{University of Toronto}\\
+% Toronto, Ontario \\
+% h.kao@mail.utoronto.ca}
+% \and
+% \IEEEauthorblockN{2\textsuperscript{nd} Victor Kariofillis}
+% \IEEEauthorblockA{\textit{Dept of Electrical and Comp. Engineering} \\
+% \textit{University of Toronto}\\
+% Toronto, Ontario \\
+% vickariofillis@gmail.com}
+% \and
+% \IEEEauthorblockN{3\textsuperscript{rd} Pulkit Agarwal}
+% \IEEEauthorblockA{\textit{Dept of Electrical and Comp. Engineering} \\
+% \textit{University of Toronto}\\
+% Toronto, Ontario \\
+% pulkit18181@gmail.com}
+% \and
+% \IEEEauthorblockN{4\textsuperscript{th} Joshua San Miguel}
+% \IEEEauthorblockA{\textit{Dept of Electrical and Comp. Engineering} \\
+% \textit{University of Wisconsin-Madison}\\
+% Madison, United States \\
+% jsanmiguel@wisc.edu}
+% \and
+% \IEEEauthorblockN{5\textsuperscript{th} Natalie Enright Jerger}
+% \IEEEauthorblockA{\textit{Dept of Electrical and Comp. Engineering} \\
+% \textit{University of Toronto}\\
+% Toronto, Ontario \\
+% enright@ece.utoronto.ca}
+% }
+
+\maketitle
+
+\begin{abstract}
+Parallel and shared memory applications are becoming increasingly important to fully utilize the multi-core architectures present in modern computing systems. The key to improving these systems lies within the on-chip networks connecting cores and memories. Efficient communication between nodes in the network is necessary to see further performance gains; and the primary source of communication traffic emanates from cache coherence. In this paper we characterize error-tolerant multi-core workloads in terms of generated coherence traffic and store-value similarity. In our work, store-value similarity is defined as a distribution of the relative difference between a store value and the value being overwritten in the cache line. The greater the store-value similarity, the smaller the relative differences of the stored values. As many applications are intrinsically error-tolerant, for example those who's computation use floating point data, we can gain insight from the collected metrics to reduce network coherence traffic by executing on approximate/incoherent values. We also explore the domain of approximate computing and propose a novel coherence optimization, Silent Approximate Stores (SAS). In SAS, upon a store hit, if the store value is approximately equal (determined by an application define error tolerance) to the value being overwritten in the cache line, coherence requests to other nodes will not be sent. The value is stored as is maintaining the current coherence state of the line, in return mitigating further network traffic from cache misses due to coherence invalidations.
+\end{abstract}
+
+
+
+\begin{IEEEkeywords}
+blah........
+\end{IEEEkeywords}
+
+
+\input{sections/introduction}
+\input{sections/silent_approx_stores}
+\input{sections/related_work}
+\input{sections/implementation}
+\input{sections/evaluation}
+\input{sections/conclusion}
+
+\nocite{*}
+
+\printbibliography
+
+
+\end{document}
